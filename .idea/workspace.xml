@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d988b7b2-c643-4390-a31a-3684b9b7e4e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jacobrichards.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUCache.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUDoublyLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/LinkedListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/LinkedListKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dataStructures/META-INF/dataStructures.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/META-INF/dataStructures.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/StackKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/StackKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LinkedListKt">
+  <component name="RunManager" selected="Kotlin.LRUCacheKt">
+    <configuration name="LRUCacheKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LRUCacheKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUDoublyLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LRUDoublyLinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <option name="VM_PARAMETERS" />
@@ -85,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LRUCacheKt" />
+        <item itemvalue="Kotlin.LRUDoublyLinkedListKt" />
         <item itemvalue="Kotlin.LinkedListKt" />
         <item itemvalue="Kotlin.StackKt" />
       </list>
@@ -108,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,8 +1,7 @@
 import java.lang.IllegalArgumentException
 
 // https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/LinkedList.html
-
-class Node<T>(var value: T, var next: Node<T>? = null){
+class Node<T>(var value: T, var next: Node<T>? = null, var prev: Node<T>? = null) {
     override fun toString(): String {
         return value.toString()
     }
@@ -108,7 +107,7 @@ fun main() {
     myLL.forEach { println("element of LL: $it") } // prints 2, 3, 4
 }
 
-fun <T> test(testValue: T, expectedValue: T){
+private fun <T> test(testValue: T, expectedValue: T){
     println("received $testValue, expected $expectedValue -> ${if(testValue == expectedValue) "PASS" else "FAIL"}")
 
 }
